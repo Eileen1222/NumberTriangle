@@ -132,7 +132,7 @@ public class NumberTriangle {
         while (line != null) {
             List<NumberTriangle> updatedp = new ArrayList<>();
             // remove when done; this line is included so running starter code prints the contents of the file
-            System.out.println(line);
+            //System.out.println(line);
             String[] parts = line.split("\\s+");
             for (String part : parts) {
                 int num = Integer.parseInt(part);
